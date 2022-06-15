@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+}
+main {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+/* .container{
+    
+} */
+
+.firstcontainer {
+    padding: 4em;
+    border-radius: 10px 0 0 10px;
+}
+.secondcontainer {
+    padding: 4em; 
+}
+.thirdcontainer {
+    padding: 4em;
+    border-radius: 0 10px 10px 0;
+
+}
+
+.firstcontainer img {
+    margin: 10px 10px 20px;
+}
+
+.firstcontainer h2 {
+    color: hsl(0, 0%, 95%);
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 10px;
+}
+.firstcontainer p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend Deca;
+    font-weight: 400;
+    font-size: 15px;
+    padding: auto;
+    margin: 30px 5px 5px;
+}
+
+.firstcontainer button {
+    margin: 60px 10px 10px;
+    cursor: pointer;
+}
+
+.firstcontainer button:hover{
+    background: transparent;
+    border: solid 2px white;
+}
+
+.secondcontainer img {
+    margin: 10px 10px 20px;
+}
+.secondcontainer h2 {
+    color: hsl(0, 0%, 95%);
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 10px;
+}
+.secondcontainer p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend Deca;
+    font-weight: 400;
+    font-size: 15px;
+    padding: auto;
+    margin: 30px 5px 5px;
+}
+
+.secondcontainer button {
+    margin: 60px 10px 10px;
+    cursor: pointer;
+}
+
+.secondcontainer button:hover{
+    background: transparent;
+    border: solid 2px white;
+}
+
+.thirdcontainer img {
+    margin: 10px 10px 20px;
+}
+
+.thirdcontainer h2 {
+    color: hsl(0, 0%, 95%);
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 10px;
+}
+.thirdcontainer p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend Deca;
+    font-weight: 400;
+    font-size: 15px;
+    padding: auto;
+    margin: 30px 5px 5px;
+}
+
+.thirdcontainer button {
+    margin: 60px 10px 10px;
+    cursor: pointer;
+}
+
+.thirdcontainer button:hover{
+    background: transparent;
+    border: solid 2px white;
+}
+
+#sedan {
+    background-color: hsl(31 76% 52%);
+
+
+}
+
+#suv {
+    background-color: hsl(184 100% 13%);
+
+}
+
+#luxury {
+    background-color: hsl(179 100% 13%);
+
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    width: 70%;
+}

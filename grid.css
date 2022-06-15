@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    place-items: center;
+    min-height: 100vh;
+}
+
+main{
+    display: grid;
+    grid-template-areas:
+    'a b c' ;
+    width: 70%;
+    margin: auto;
+}
+
+main div{
+    padding: 4em;
+}
+
+main img{
+    margin: 10px 10px 20px;
+    width: 40%;
+}
+
+main h2{
+    color: hsl(0, 0%, 95%);
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 15px; 
+}
+main p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend Deca;
+    font-weight: 400;
+    font-size: 15px;
+    padding: auto;
+    margin: 30px 5px 5px;
+}
+
+main button{
+    margin: 60px 10px 10px;
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    width: 80%;
+    cursor: pointer;
+}
+
+main button:hover {
+    background: transparent;
+    border: solid 2px white;
+    
+}
+
+    
+.firstcontainer{
+    background-color: hsl(31, 77%, 52%);
+    grid-area: a;
+    border-radius: 10px 0 0 10px;
+}
+
+.secondcontainer{
+    background-color: hsl(184, 100%, 22%); 
+    grid-area: b;
+}
+
+.thirdcontainer{
+    background-color: hsl(179, 100%, 13%);
+    grid-area: c;
+    border-radius: 0 10px 10px 0;
+}
+
+.secondcontainer button{
+    width: 90%;
+    margin-top: 50px;
+}
